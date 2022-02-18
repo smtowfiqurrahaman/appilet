@@ -1,0 +1,54 @@
+.Hero_Section{
+    height: 100%;
+    width: 100%;
+    background: url("../img/assets/asset\ 26.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Hero_part{
+    padding-top: 12rem;
+    
+}
+.Hero_part img{
+    height: 400px;
+}
+/* Second_section_service */
+.Second_section_service{
+    height: 100%;
+    width: 100%;
+}
+.Second_section_service img{
+    height: 38rem;
+}
+.icon{
+    font-size: 3rem;
+
+}
+.icon:hover{
+    color:#7C4FE0;
+    transition: .5s ease-in;
+}
+/* Subscrib */
+.left_img1 img{
+    position: absolute;
+    right: 70px;
+    bottom: 0;
+    height:25rem;
+    
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .Hero_part img {
+        height: 18rem;
+    }
+    .left_img1{
+        display: none;
+    }
+    .Feature_text{
+        padding: 3rem;
+    }
+}

@@ -1,0 +1,29 @@
+.Contactus_Section{
+    padding: 5rem;
+    background: #F5F5F7;
+}
+.contact_form{
+    background: #fff;
+    border-radius: 20px;
+}
+.contact_form form{
+    padding:3rem;
+    border-radius: 20px;
+}
+.contact_form input{
+    padding: 1rem;
+    background: #F5F5F7;
+}
+.contact_form textarea{
+    background: #F5F5F7;
+}
+
+@media screen and (max-width:480px) {
+    .contact_form form {
+        padding: 2rem;
+        border-radius: 20px;
+    }
+}
+
+
+contact_form

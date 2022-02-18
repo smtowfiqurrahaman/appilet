@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+h1 , h2, h3, h4, h5, h6{
+    font-family: font-family:'Roboto', sans-serif; ;
+}
+
+/* hero section */
+.Hero_section{
+    height: 150vh;
+    width: 100%;
+    padding-top: 15rem;
+    padding-left: 5rem;
+
+}
+.Hero_section img{
+ padding-left: 5rem;
+}
+.mobile{
+    background: url(../img/assets/Circle.png);
+    background-repeat: no-repeat;
+    height:500px;
+    width: 500px;
+    position: relative;
+    padding-right: 10rem;
+}
+.mobile img{
+    margin-top: -3rem;
+    padding-left: 6rem;
+    transition: all ease-in-out .3s;
+}
+.mobile img:hover{
+    /* box-shadow: 0px 40px 40px 0px rgb(14 17 51 / 10%); */
+    transform: translateY(-18px);
+}
+/* .Hero_section button{
+    border: 1px;
+    background: rgb(238, 125, 125);
+    padding:10px 20px;
+    border-radius: 5px;
+} */
+.button1{
+    border: none;
+    background: #0E1133;
+    padding:10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #fff;
+}
+.button1:hover{
+    border: 2px solid #0E1133;
+   background: #FFF;
+    padding:10px 18px;
+    border-radius: 5px;
+    color:#000;
+    transition:.5s ease-in-out;
+    /* margin-left: 10px; */
+}
+.button2{
+    border: 2px solid #0E1133;
+    /* background: rgb(238, 125, 125); */
+    padding:10px 18px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.button2:hover{
+    border: 2px solid ;
+   background: #0E1133;
+    padding:10px 18px;
+    border-radius: 5px;
+    color:#fff;
+    transition:.5s ease-in-out;
+}
+/* Firest Section */
+/* Second_section Start */
+.Second_section{
+    height: 100%;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background: #EEF1F6;
+}
+.reload{
+        font-size: 70px;
+        background: linear-gradient(135deg, #84bcfa 0%, #2b70fa 100%);
+        padding: 20px;
+        border-radius:20px;
+        color: #fff;
+        font-weight: 500;
+}
+.reload1{
+        font-size: 70px;
+        background: linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
+        padding: 20px;
+        border-radius:20px;
+        color: #fff;
+        font-weight: 500;
+}
+.reload2{
+    font-size: 70px;
+    background: linear-gradient(135deg, #a0eac2 0%, #31c369 100%);
+    padding: 20px;
+    border-radius:20px;
+    color: #fff;
+    font-weight: 500;
+}
+.reload3{
+    font-size: 70px;
+    background: linear-gradient(135deg, #d8aaff 0%, #9b2cfa 100%);
+    padding: 20px;
+    border-radius:20px;
+    color: #fff;
+    font-weight: 500;
+}
+.Second_section p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card_area {
+    padding: 50px 30px 10px;
+    background: #fff;
+    border-radius: 6px;
+    transition: all linear 0.3s;
+}
+.card_area:hover{
+    box-shadow: 0px 40px 40px 0px rgb(14 17 51 / 10%);
+    transform: translateY(-15px);
+}
+
+/* Third Section */
+.Third_section{
+    height: 100%;
+    width: 100%;
+
+}
+
+.Third_section span{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.third_text{
+    /* height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #ffffff;
+    color: #63636a;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px; */
+    font-size: 17px;
+    color: #535353;
+    font-weight: 700;
+}
+.Third_section i{
+   padding-right: 10rem;
+}
+.Third_section img{
+    height: 35rem;
+    transition: all linear 0.3s;
+}
+.Third_section img:hover{
+    /* box-shadow: 0px 40px 40px 0px rgb(14 17 51 / 10%); */
+    transform: translateY(-15px);
+    /* transition: all ease-in-out; */
+}
+
+.third_part{
+    padding-left: 5rem;
+}
+/* Forth Part */
+.Forth_section{
+    height:100%;
+    width: 100%;
+
+}
+.H1{
+    font-family:'Roboto', sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+}
+.P4{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -30px;
+    
+}
+
+.Check_icon{
+    font-size: 25px;
+    background: linear-gradient(135deg, #84bcfa 0%, #2b70fa 100%); color: #fff;
+    padding: 6px;
+    border-radius:20px;
+    color: #fff;
+    /* font-weight: 500; */
+}
+.Check_icon1{
+    font-size: 25px;
+    background:  linear-gradient(135deg, #a0eac2 0%, #31c369 100%);
+    padding: 6px;
+    border-radius:20px;
+    color: #fff;
+}
+.Check_icon2{
+    font-size: 25px;
+    background:  linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
+    padding: 6px;
+    border-radius:20px;
+    color: #fff;
+}
+.Check_icon2{
+    font-size: 25px;
+    background:  linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
+    padding: 6px;
+    border-radius:20px;
+    color: #fff;
+}
+.forth_s_img{
+    padding-top: 2rem;
+    height:35rem;
+    padding-left: 30px;
+}
+.button{
+    /* padding-top: 3rem; */
+}
+/* Fifth_section */
+
+.Fifth_section{
+    height: 100%;
+    width: 100%;
+    
+}
+.team{
+    padding: 40px;
+}
+/* Sixth_Section */
+.Sixth_Section{
+    height: 100%;
+    width: 100%;
+    background: #EEF1F6;
+    padding-left: 5rem;
+}
+.Card{
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    /* position: relative; */
+}
+.Card:hover{
+    box-shadow: 0px 40px 40px 0px rgb(14 17 51 / 10%);
+    transform: translateY(-15px);
+    transition: .5s ease-in-out;
+}
+
+/* on off Buttton */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+/* on off Buttton */
+/* Seventh Section */
+.Seven_section{
+    height: 100%;
+    width: 100%;
+    background: #EEF1F6;
+    background-image: url(../img/assets/asset\ 27.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 90%;
+}
+.Eighth_Section{
+    height: 100%;
+    width: 100%;
+}
+/* Nineth_Section */
+.Subscribe_section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-top: 5rem;
+    
+}
+.background_area{
+    background: url(../img/assets/asset\ 28.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+    padding-top: 75px;
+    padding-bottom: 85px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.background_area .Form_input input{
+    width: 60%;
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 6px;
+    border: 0;
+}
+.background_area .Form_input button{
+    margin-left: 10px;
+    padding: 0 30px;
+    border-radius: 6px;
+    padding: 0 25px;
+    background: #0e1133;
+    border: 0;
+    color: #fff;
+    line-height: 50px;
+}
+.left_img img{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    height:25rem;
+    
+}
+.social ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.social ul li {
+    display: inline-block;
+}
+.social ul li a {
+    color: #fff;
+    background: #0d6efd;
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 36px;
+    margin-right: 5px; 
+    text-align: center;
+    
+}
+
+
+
+ @media screen and (max-width:480px) {
+    .Hero_section{
+        padding-top: 10rem; 
+     padding-left: 3rem; 
+     padding-bottom:50rem;
+     
+    }
+    .mobile{
+       background: none;
+    }
+    .Third_section img {
+        height: 33rem;
+    }
+    
+    .mobile img{
+        margin-top:2rem;
+        padding-left: 5rem;
+        height: 20rem;
+    }
+
+
+    .forth_s_img {
+        padding-top: 2rem;
+        height: 23rem;
+        /* padding-left: 30px; */
+    }
+    .team img{
+        padding-left: 3rem;
+    }
+    .Card{
+        margin-top: 10rem;
+    }
+    .Sixth_Section{
+        padding: 3rem;
+    }
+    .left_img{
+        display: none;
+    }
+}
